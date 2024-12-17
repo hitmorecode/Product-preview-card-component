@@ -1,4 +1,4 @@
-* {
+body {
     background-color: rgb(228, 219, 182);
     
 }
@@ -7,13 +7,13 @@
     display: flex;
     justify-content: center;
     margin-top: 235px;
-    
+    height: 478px;
 }
 
 .Card-Img {
     display: flex;
     justify-content: center;
-    height: 50vh;
+    height: 478px;
     
     overflow: hidden;
     border-top-left-radius: 10px;
@@ -39,16 +39,16 @@ h2 {
 
 .Price,
 .Desc,
-.Brand,
-h2 {
+.Brand {
     margin-left: 25px;
     font-family: Montserrat;
 }
 
-h2 {
+.P {
     font-size: 13.9px;
     color: rgb(175, 173, 173);
     margin-top: 35px;
+    margin-left: 25px;
 }
 
 .Brand {
@@ -67,11 +67,11 @@ h2 {
     align-items: center;
     justify-content: space-between;
     
-    
 }
 
 .Promo{
     margin-top: 25px;
+   
     font-size: 35px;
     font-family: Fraunces;
 }
