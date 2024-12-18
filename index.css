@@ -1,132 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    background-color: rgb(228, 219, 182);
-    
+  background-color: hsl(30, 38%, 92%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Card {
-    display: flex;
-    justify-content: center;
-    margin-top: 235px;
-    height: 478px;
+  display: flex;
+  justify-content: center;
+  height: 478px;
 }
 
 .Card-Img {
-    display: flex;
-    justify-content: center;
-    height: 478px;
-    
-    overflow: hidden;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+  display: flex;
+  justify-content: center;
+  height: 478px;
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .Product {
-    background-color: white;
-    width: 300px;
-
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-
+  background-color: white;
+  width: 300px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 30px;
 }
 
-.Product,
+/* .Product,
 .Desc,
 .Price,
 h1,
 h2 {
-    background-color: white;
+  background-color: white;
 }
+*/
 
 .Price,
 .Desc,
 .Brand {
-    margin-left: 25px;
-    font-family: Montserrat;
+  /* margin-left: 25px; */
+  font-family: Montserrat;
 }
 
 .P {
-    font-size: 13.9px;
-    color: rgb(175, 173, 173);
-    margin-top: 35px;
-    margin-left: 25px;
+  font-size: 13.9px;
+  color: rgb(175, 173, 173);
+  margin-bottom: 15px;
+  letter-spacing: 4px;
+  /* margin-left: 25px; */
+}
+
+h1 {
+  margin-bottom: 10px;
 }
 
 .Brand {
-    font-family: Fraunces;
+  font-family: Fraunces;
 }
 
 .Desc {
-    margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .Price {
-    font-weight: bolder;
-    color: hsl(158, 36%, 37%);
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+  font-weight: bolder;
+  color: hsl(158, 36%, 37%);
+  display: flex;
+  /* align-items: center;
+  justify-content: space-between; */
 }
 
 .Promo{
-    margin-top: 25px;
-   
-    font-size: 35px;
-    font-family: Fraunces;
+  margin-top: 25px;
+  font-family: Fraunces;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
 }
 
 .FullPrice {
-    margin-right: 75px;
-    font-size: 13.5px;
-    color: darkgray;
-    background-color: white;
-
-    text-decoration: line-through;
+  margin-right: 75px;
+  font-size: 13.5px;
+  color: darkgray;
+  background-color: white;
+  margin-left: 10px;
 }
 
 .Btn-Card{
-    margin-left: 25px;
-    margin-right: 25px;
-    border-radius: 10px;
-
-    height: 40px;
-    
-    
-    font-family: Montserrat;
-    cursor: pointer;
-    
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 10px;
+  height: 40px;
+  font-family: Montserrat;
+  cursor: pointer;
 }
 
 .Btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-   margin-top: 25px;
-   font-size: 12.5px;
-   border-radius: 10px;
-
-   transition: color 0.3s ease, transform 0.3s ease;
-   background-color: hsl(158, 36%, 37%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  font-size: 12.5px;
+  border-radius: 10px;
+  transition: color 0.3s ease, transform 0.3s ease;
+  background-color: hsl(158, 36%, 37%);
+  width: 100%;
+  border: none;
+  height: 40px;
 }
 
 .Btn-Img{
-    margin-right: 10px;
-    height: 25px;
-    background-color: hsl(158, 36%, 37%);
+  margin-right: 10px;
+  height: 25px;
+  background-color: hsl(158, 36%, 37%);
 }
 
 h3{
-    color: white;
-    background-color:hsl(158, 36%, 37%);
+  color: white;
+  background-color:hsl(158, 36%, 37%);
 }
 
 .Btn:hover{
-    background-color: hsl(158, 97%, 13%);
-    border-radius: 10px;
+  background-color: hsl(158, 97%, 13%);
+  border-radius: 10px;
 }
 
 .Btn:hover h3, .Btn:hover .Btn-Img{
-    background-color: transparent;
+  background-color: transparent;
 }
